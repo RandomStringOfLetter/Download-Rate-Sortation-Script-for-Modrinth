@@ -7,7 +7,7 @@ def fetch_projects(offset, q):  # facets are a bit finicky to customize so I jus
     params = {
     #    "facets": '[["categories:fabric"], ["project_type:datapack"]]',    # Change to apply filters, more info at https://docs.modrinth.com/api/operations/searchprojects/
         "query": q,
-        "index": "downloads",   # Sort by download count, recommended for this script
+        "index": "downloads",   # Sort by download count, Such that fetching 100 mods will return the top 100 mods by downloads. Recommended for this script
         "limit": 100,           # fetch 100 projects at a time
         "offset": offset,
     }
