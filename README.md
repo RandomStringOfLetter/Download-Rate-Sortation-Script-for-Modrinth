@@ -1,1 +1,1 @@
-# Modrinth-downloads-per-day-script
+# Downloads Per Day Sortation Script for Modrinth
